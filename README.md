@@ -67,13 +67,11 @@ g++ -std=c++17 -O2 -o solution 1234A.cpp
 g++ -std=c++17 -O2 -o solution 1234A.cpp && ./solution
 ```
 
-> using competitive programming template with fast I/O (`ios_base::sync_with_stdio(false); cin.tie(NULL);`)
+> using fast I/O template — `ios_base::sync_with_stdio(false); cin.tie(NULL);`
 
 ---
 
 ## 📈 progress roadmap
-
-> current grind — CF rating climb
 
 - [x] reach 200+ problems solved
 - [x] solid foundation in implementation & math
@@ -110,12 +108,8 @@ g++ -std=c++17 -O2 -o solution 1234A.cpp && ./solution
 
 ## 🧠 approach
 
-i write solutions **without looking up the answer** — if i'm stuck, i think longer, not shorter. every accepted solution here was either solved independently or after understanding a hint conceptually (not copying code).
-
-code quality is intentional:
-- clean variable names
-- comments on non-obvious logic
-- no unnecessary macros that kill readability
+no answer-peeking. if i'm stuck, i think longer.  
+solutions are in C++17, cleaned up after AC.
 
 ---
 
@@ -123,11 +117,3 @@ code quality is intentional:
 
 [![Codeforces](https://img.shields.io/badge/CF-hackgg106-1F8ACB?style=flat-square&logo=codeforces)](https://codeforces.com/profile/hackgg106)
 [![GitHub](https://img.shields.io/badge/GitHub-ahmedmohsen--eng-181717?style=flat-square&logo=github)](https://github.com/ahmedmohsen-eng)
-
----
-
-<div align="center">
-
-*"the only way to get better at competitive programming is to actually do competitive programming."*
-
-</div>
