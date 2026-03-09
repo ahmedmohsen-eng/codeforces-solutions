@@ -33,8 +33,13 @@ codeforces-solutions/
 │   ├── math/
 │   ├── greedy/
 │   ├── brute-force/
+│   ├── strings/
+│   ├── recursion/
 │   ├── sorting/
+│   ├── prefix-sum/
 │   ├── binary-search/
+│   ├── two-pointers/
+│   ├── stl/
 │   ├── data-structures/
 │   │   ├── hash-map/
 │   │   ├── stack/
@@ -88,19 +93,24 @@ g++ -std=c++17 -O2 -o solution 1234A.cpp && ./solution
 
 | topic | status | notes |
 |---|---|---|
-| implementation | ✅ solid | most common in 800–1000 |
-| math / number theory | ✅ solid | primes, modular arithmetic |
-| greedy | ✅ solid | |
-| brute force / complete search | ✅ solid | |
-| sorting & binary search | ✅ solid | |
+| data types & conditions | ✅ solid | |
+| loops | ✅ solid | |
+| arrays | ✅ solid | |
+| functions | ✅ solid | |
+| recursion | ✅ solid | |
+| strings | ✅ solid | |
+| math / geometry | ✅ solid | |
+| sorting | ✅ solid | |
 | hash maps & sets | ✅ solid | |
-| stacks & queues | ✅ solid | |
-| two pointers | 🔄 in progress | |
-| graphs (BFS / DFS) | 🔄 in progress | |
-| dynamic programming | 🔜 next focus | key skill for 1400+ |
+| prefix sum / frequency array | ✅ solid | |
+| STL (sets, maps, pairs...) | 🔄 in progress | ICPC Assiut Phase 1 |
+| binary search | 🔜 next | |
+| two pointers | 🔜 next | |
+| bitmask / bitset | 🔜 planned | |
+| graphs (BFS / DFS) | 🔜 planned | |
+| dynamic programming | 🔜 planned | key skill for 1400+ |
 | segment trees | 🔜 planned | |
 | shortest paths (Dijkstra) | 🔜 planned | |
-| string algorithms | 🔜 planned | |
 
 ✅ solid &nbsp;&nbsp; 🔄 in progress &nbsp;&nbsp; 🔜 planned
 
