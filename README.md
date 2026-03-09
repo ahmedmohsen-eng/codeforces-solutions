@@ -1,122 +1,133 @@
 <div align="center">
 
-<h1>⚔️ Codeforces Solutions</h1>
-
-<p><em>Solving problems. Building intuition. Trusting the process.</em></p>
+# ⚔️ codeforces solutions
 
 [![Codeforces](https://img.shields.io/badge/Codeforces-hackgg106-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/hackgg106)
-[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-200+-brightgreen?style=for-the-badge)](#)
-[![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](#)
-[![ICPC](https://img.shields.io/badge/ICPC-UFE%20Member-orange?style=for-the-badge)](#)
+[![Rating](https://img.shields.io/badge/Rating-currently%20grinding-orange?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/hackgg106)
+[![Problems](https://img.shields.io/badge/Problems%20Solved-200%2B-success?style=for-the-badge)](https://codeforces.com/profile/hackgg106)
+[![Language](https://img.shields.io/badge/Language-C%2B%2B17-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org/)
 
-<br/>
-
-<img src="https://codeforces-readme-stats.vercel.app/api/top-tags?username=hackgg106&style=for-the-badge" alt="CF Tag Stats"/>
+*grinding problems. building intuition. one submission at a time.*
 
 </div>
 
 ---
 
-## 📁 Repository Structure
+## 📁 repository structure
+
+solutions are organized **two ways** — pick whichever you find useful:
 
 ```
 codeforces-solutions/
 │
-├── 800/              # Rating 800 problems
-├── 900/              # Rating 900 problems
-├── 1000/             # Rating 1000 problems
-├── 1100/             # Rating 1100 problems
-├── 1200/             # Rating 1200 problems
-├── 1300/             # Rating 1300+ problems
+├── by-rating/               # organized by problem difficulty
+│   ├── 800/
+│   ├── 900/
+│   ├── 1000/
+│   ├── 1100/
+│   ├── 1200/
+│   └── 1300+/
 │
-└── by-topic/
-    ├── brute-force/
-    ├── greedy/
-    ├── math/
-    ├── implementation/
-    ├── sorting/
-    ├── binary-search/
-    ├── two-pointers/
-    ├── dp/
-    ├── graphs/
-    └── data-structures/
+├── by-topic/                # organized by algorithm / concept
+│   ├── implementation/
+│   ├── math/
+│   ├── greedy/
+│   ├── brute-force/
+│   ├── sorting/
+│   ├── binary-search/
+│   ├── data-structures/
+│   │   ├── hash-map/
+│   │   ├── stack/
+│   │   └── queue/
+│   ├── graphs/
+│   │   ├── bfs/
+│   │   └── dfs/
+│   └── dynamic-programming/
+│
+└── README.md
 ```
 
-> Each file is named as `ProblemCode_ProblemName.cpp` (e.g. `1234A_TwoGroups.cpp`)
+each solution file is named by **problem ID** — for example:  
+`1234A.cpp` → [codeforces.com/problemset/problem/1234/A](https://codeforces.com/problemset)
 
 ---
 
-## 🧠 Approach
+## 🚀 how to compile & run
 
-I don't look up solutions when I'm stuck. I sit with the problem, stress-test my thinking, and only move on when I've either solved it or fully understood the editorial after attempting it for real.
-
-Every solution here was written by hand — no copy-paste, no shortcuts.
-
----
-
-## 📊 Progress Tracker
-
-| Metric | Value |
-|---|---|
-| 🏆 Current Rating | ~800 |
-| ✅ Problems Solved | 200+ |
-| 🌐 Platform | [Codeforces](https://codeforces.com/profile/hackgg106) |
-| 🏫 ICPC Team | UFE |
-| 💻 Language | C++ (only) |
-
----
-
-## 🗺️ Roadmap
-
-- [x] 200+ problems solved
-- [ ] Reach rating **1000**
-- [ ] Reach rating **1200** — master Greedy, Binary Search, Prefix Sums
-- [ ] Reach rating **1500** — deep DP, Graph theory
-- [ ] Qualify for **ICPC regionals**
-- [ ] Reach rating **1900+**
-
----
-
-## 🔧 Topics I'm Currently Focused On
-
-```
-✅ Brute Force        ✅ Math & Number Theory
-✅ Greedy             ✅ Sorting & Searching
-🔄 Binary Search      🔄 Two Pointers
-🔄 Prefix Sums        🔜 Dynamic Programming
-🔜 Graphs (BFS/DFS)   🔜 Data Structures (Segment Tree, etc.)
-```
-
----
-
-## 💡 Tools & Resources
-
-- 📘 [USACO Guide](https://usaco.guide/) — structured CP curriculum
-- 🎥 [Errichto](https://www.youtube.com/@Errichto) / [Colin Galen](https://www.youtube.com/@ColinGalen) / [Neal Wu](https://www.youtube.com/@nealwu) — editorial-style walkthroughs
-- 📐 [AoPS](https://artofproblemsolving.com/) — mathematical foundations
-- 🧪 [AtCoder DP Contest](https://atcoder.jp/contests/dp) — DP mastery
-
----
-
-## ⚡ How to Run Any Solution
+all solutions are written in **C++17**. to compile and run any file:
 
 ```bash
-# Compile
-g++ -O2 -o solution ProblemCode_Name.cpp
+# compile
+g++ -std=c++17 -O2 -o solution 1234A.cpp
 
-# Run
+# run
 ./solution
 
-# With input file
-./solution < input.txt
+# or one-liner
+g++ -std=c++17 -O2 -o solution 1234A.cpp && ./solution
 ```
+
+> using competitive programming template with fast I/O (`ios_base::sync_with_stdio(false); cin.tie(NULL);`)
+
+---
+
+## 📈 progress roadmap
+
+> current grind — CF rating climb
+
+- [x] reach 200+ problems solved
+- [x] solid foundation in implementation & math
+- [ ] push rating past **1000**
+- [ ] push rating past **1200**
+- [ ] push rating past **1400**
+- [ ] push rating past **1600** — Div. 2 C/D consistent
+- [ ] qualify for **ICPC regional** with serious performance
+- [ ] push rating past **1900**
+
+---
+
+## 🗂️ topic tracker
+
+| topic | status | notes |
+|---|---|---|
+| implementation | ✅ solid | most common in 800–1000 |
+| math / number theory | ✅ solid | primes, modular arithmetic |
+| greedy | ✅ solid | |
+| brute force / complete search | ✅ solid | |
+| sorting & binary search | ✅ solid | |
+| hash maps & sets | ✅ solid | |
+| stacks & queues | ✅ solid | |
+| two pointers | 🔄 in progress | |
+| graphs (BFS / DFS) | 🔄 in progress | |
+| dynamic programming | 🔜 next focus | key skill for 1400+ |
+| segment trees | 🔜 planned | |
+| shortest paths (Dijkstra) | 🔜 planned | |
+| string algorithms | 🔜 planned | |
+
+✅ solid &nbsp;&nbsp; 🔄 in progress &nbsp;&nbsp; 🔜 planned
+
+---
+
+## 🧠 approach
+
+i write solutions **without looking up the answer** — if i'm stuck, i think longer, not shorter. every accepted solution here was either solved independently or after understanding a hint conceptually (not copying code).
+
+code quality is intentional:
+- clean variable names
+- comments on non-obvious logic
+- no unnecessary macros that kill readability
+
+---
+
+## 🔗 find me
+
+[![Codeforces](https://img.shields.io/badge/CF-hackgg106-1F8ACB?style=flat-square&logo=codeforces)](https://codeforces.com/profile/hackgg106)
+[![GitHub](https://img.shields.io/badge/GitHub-ahmedmohsen--eng-181717?style=flat-square&logo=github)](https://github.com/ahmedmohsen-eng)
 
 ---
 
 <div align="center">
 
-*"The expert in anything was once a beginner who refused to quit."*
-
-[![GitHub](https://img.shields.io/badge/GitHub-ahmedmohsen--eng-181717?style=flat-square&logo=github)](https://github.com/ahmedmohsen-eng)
+*"the only way to get better at competitive programming is to actually do competitive programming."*
 
 </div>
