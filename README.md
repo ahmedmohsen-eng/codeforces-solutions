@@ -15,41 +15,28 @@
 
 ## 📁 repository structure
 
-solutions are organized **two ways** — pick whichever you find useful:
-
 ```
 codeforces-solutions/
 │
-├── by-rating/               # organized by problem difficulty
-│   ├── 800/
-│   ├── 900/
-│   ├── 1000/
-│   ├── 1100/
-│   ├── 1200/
-│   └── 1300+/
-│
-├── by-topic/                # organized by algorithm / concept
-│   ├── implementation/
-│   ├── math/
-│   ├── greedy/
-│   ├── brute-force/
-│   ├── strings/
-│   ├── recursion/
-│   ├── sorting/
-│   ├── prefix-sum/
-│   ├── binary-search/
-│   ├── two-pointers/
-│   ├── stl/
-│   ├── data-structures/
-│   │   ├── hash-map/
-│   │   ├── stack/
-│   │   └── queue/
-│   ├── graphs/
-│   │   ├── bfs/
-│   │   └── dfs/
-│   └── dynamic-programming/
-│
-└── README.md
+├── implementation/
+├── math/
+├── greedy/
+├── brute-force/
+├── strings/
+├── recursion/
+├── sorting/
+├── prefix-sum/
+├── binary-search/
+├── two-pointers/
+├── stl/
+├── data-structures/
+│   ├── hash-map/
+│   ├── stack/
+│   └── queue/
+├── graphs/
+│   ├── bfs/
+│   └── dfs/
+└── dynamic-programming/
 ```
 
 each solution file is named by **problem ID** — for example:  
