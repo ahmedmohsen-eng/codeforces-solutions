@@ -18,25 +18,35 @@
 ```
 codeforces-solutions/
 │
-├── implementation/
-├── math/
-├── greedy/
-├── brute-force/
-├── strings/
-├── recursion/
-├── sorting/
-├── prefix-sum/
-├── binary-search/
-├── two-pointers/
-├── stl/
-├── data-structures/
-│   ├── hash-map/
-│   ├── stack/
-│   └── queue/
-├── graphs/
-│   ├── bfs/
-│   └── dfs/
-└── dynamic-programming/
+├── by_topic/
+│   │
+│   ├── 01_implementation/
+│   ├── 02_math/
+│   ├── 03_greedy/
+│   ├── 04_brute_force/
+│   ├── 08_strings/
+│   │
+│   ├── sheet_01_data_types/
+│   ├── sheet_02_loops/
+│   ├── sheet_03_arrays/
+│   ├── sheet_04_strings/
+│   ├── sheet_05_functions/
+│   ├── sheet_07_recursion/
+│   ├── sheet_08_general_easy/
+│   ├── sheet_09_general_medium/
+│   ├── sheet_10_general_hard/
+│   │
+│   ├── assiut_training_contest_1/
+│   ├── assiut_training_contest_2/
+│   ├── assiut_training_contest_3/
+│   ├── stl_practice_contest/
+│   │
+│   ├── contest_extra_01/
+│   ├── contest_extra_02/
+│   ├── contest_extra_03/
+│   └── contest_extra_04/
+│
+└── README.md
 ```
 
 each solution file is named by **problem ID** — for example:  
@@ -105,8 +115,8 @@ g++ -std=c++17 -O2 -o solution 1234A.cpp && ./solution
 
 ## 🧠 approach
 
-no answer-peeking. if i'm stuck, i think longer.  
-solutions are in C++17, cleaned up after AC.
+understand the idea first, code second.  
+solutions in C++17, cleaned up after AC.
 
 ---
 
